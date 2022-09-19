@@ -7,7 +7,9 @@ Refactorización de código
 
 * Se consolidarón selectores y propedades en el CSS para hacerlo más eficiente.
 
-![Screenshot](image.png)
+![Captura de pantalla de la aplicacion web](.assets/Captura-de-pantalla.png)
+
+
 URL de GitHub
 * https://caro2102.github.io/D1_Marketing/legendary-memory-main/Develop/#social-media-marketing
 
