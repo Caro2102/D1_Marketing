@@ -1,9 +1,11 @@
+/*Atributos universales*/
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*Color de fondo en todo el body*/
 body {
     background-color: #d9dcd6;
 }
@@ -13,8 +15,6 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-   
-   
     /*Flex*/
     display: flex;
     flex-direction: row;
@@ -22,7 +22,7 @@ header {
     align-items: center;
     flex-wrap: wrap;;
 }
-
+/*Atributos titulo de la página*/
 header h1 {
     display: inline-block;
     font-size: 48px;
@@ -31,7 +31,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/*Atributos barra de navegación*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -49,18 +49,18 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*Atributos enlace*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/*Atributos de todos los párrafos*/
 p {
     font-size: 16px;
     flex: wrap;
     display: block;
 }
-
+/*Atributos imagen principal */
 .hero {
     height: 800px;
     width: 100%;
@@ -69,7 +69,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*flotar la imagen izquierda o derecha*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -85,10 +85,11 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+
 .content img {
     max-height: 200px;
 }
-
+/*Atributos sección de contenido principal*/
 .first{
     margin-bottom: 20px;
     padding: 50px;
@@ -106,7 +107,7 @@ p {
     font-size: 36px;
     display: flex;
 }
-
+/*Atributos contenido secundario*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -133,7 +134,7 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*Atributos pie de página*/
 .footer {
     padding: 30px;
     clear: both;
